@@ -1,0 +1,77 @@
+body{
+	       background: #c0392b;  /* fallback for old browsers */
+           background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+           background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+		.box1{
+			float:right;
+			margin-top: 12%;
+			margin-right: 300px;
+		}
+		.form-control {
+			  position: relative;
+			  box-sizing: border-box;
+			  margin: 0px;
+			  width:300px;
+		}
+		.vl {
+			    border-left: 3px solid white;
+			    height: 400px;
+			    position: absolute;
+			    left: 50%;
+			    margin-left: -3px;
+			    margin-top: 100px;
+			}
+			.box2{
+			margin-top: 11%;
+			float: left;
+			margin-left: 300px;
+		  }
+
+	    .content{
+		  	
+		  	text-shadow: 1px 1px 1px #ccc;
+            font-size: 3em;
+			color:white;
+		    float: left;
+			margin-left: 260px;
+			margin-top: 0;
+		  }
+
+		.fa-heartbeat{
+			text-shadow: 1px 1px 1px #ccc;
+            font-size: 7em;
+			color:white;
+     		}
+     		.btn{
+     	    margin-left: 108px;    		
+
+     		}
+     	.form-control{
+     		border: 1px solid #fdc8cd;
+     		color:white;
+     		height: calc(2.5rem + 2px);
+     		background: transparent;
+     	}
+
+     	.form-control::-webkit-input-placeholder { 
+       color:#fff;
+          }
+
+     	.form-control::-moz-placeholder { 
+       color:#fff;
+          }
+
+     	.form-control::-ms-input-placeholder { 
+       color:#fff;
+          }
+
+     	.form-control::-moz-placeholder { 
+       color:#fff;
+          }
+        .form-control:focus {
+            border-color: #fdc8cd ;
+            background: transparent;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75), 0 0 8px rgba(253, 200, 205, 0.6);
+        }
